@@ -13,7 +13,7 @@ public class DesktopLauncher {
 
         config.setWindowedMode(960, 640);
 
-        new Lwjgl3Application(new Boot(), config);
+        new Lwjgl3Application(new Game(), config);
     }
 
 }
