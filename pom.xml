@@ -32,6 +32,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.32</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+            <version>1.18.20</version>
+        </dependency>
+        <dependency>
             <groupId>com.badlogicgames.gdx</groupId>
             <artifactId>gdx-box2d-platform</artifactId>
             <classifier>natives-desktop</classifier>
