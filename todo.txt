@@ -1,0 +1,18 @@
+* Saving Game
+* Loading Game
+* Properties file
+* Basic level
+    * Saving
+    * Loading
+* Stats
+* Basic movement
+* Basic damage
+    * Bump combat
+* Items
+* Inventory
+* Equipment
+* FOV
+* Multiple heroes, change focus each turn
+* Multiple heroes, AI controlled
+* Multiple levels in a zone
+* Basic skills
