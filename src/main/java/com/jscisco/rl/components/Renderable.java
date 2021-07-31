@@ -4,6 +4,9 @@ import com.artemis.Component;
 import com.artemis.annotations.Transient;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
+/**
+ * This contains information required to render an entity
+ */
 @Transient
 public class Renderable extends Component {
 
