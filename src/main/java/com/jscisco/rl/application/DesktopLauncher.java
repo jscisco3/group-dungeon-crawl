@@ -19,11 +19,12 @@ public class DesktopLauncher {
 
         config.setWindowedMode(960, 640);
 
-        SpriteBatch batch = spriteBatch();
-        WorldConfiguration worldConfiguration = worldConfiguration(batch);
-        World world = world(worldConfiguration);
+//        SpriteBatch batch = spriteBatch();
+//        WorldConfiguration worldConfiguration = worldConfiguration(batch);
+//        World world = world(worldConfiguration);
 
-        new Lwjgl3Application(new Game(world, batch), config);
+//        new Lwjgl3Application(new Game(world, batch), config);
+        new Lwjgl3Application(new Game(), config);
     }
 
     public static SpriteBatch spriteBatch() {
