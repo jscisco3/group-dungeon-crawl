@@ -10,6 +10,8 @@ you have the option to control an entire party of heroes.
 * AI controlled teammates, or take full control
 
 ### How to build
+* Make sure that JAVA_HOME is set to jdk15 +
+  * e.g. export JAVA_HOME=/usr/lib/jvm/jre-16-openjdk/
 * Install JDK 15
 * mvnw clean package
 
